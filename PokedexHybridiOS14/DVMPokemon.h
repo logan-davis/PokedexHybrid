@@ -25,9 +25,3 @@
 - (instancetype)initWithDictionary:(NSDictionary <NSString *, id> *)dictionary;
 
 @end
-
-@interface DVMPokemon (JSONConvertible)
-
-- (instancetype)initWithDictionary:(NSDictionary<NSString *,id> *)dictionary;
-
-@end
